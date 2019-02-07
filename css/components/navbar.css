@@ -1,0 +1,15 @@
+.navbar {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 3em;
+  opacity: 0.6;
+  background-blend-mode: color-burn;
+}
+
+.navbar img {
+  +filter: saturate(90);
+
+}

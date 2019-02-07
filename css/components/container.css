@@ -1,0 +1,63 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+@media (max-width: 980px) {
+  .container {
+    width:700px;
+    margin: 0 auto;
+
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    width:400px;
+    margin: 0 auto;
+
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width:300px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+.container h1,h2, p {
+  color: Gainsboro;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  align-items: center;
+}
+
+
+.full-width { width: 100% }
+
+.hero {
+  height: 100vh;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode:overlay;}
+
+.parallax {
+  background-image: url("/images/1080.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

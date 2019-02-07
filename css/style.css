@@ -1,0 +1,35 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3all.css');
+
+/*Components*/
+
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('components/footer.css');
+@import url('components/navbar.css');
+@import url('components/container.css');
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.center-align {
+  text-align: center
+}

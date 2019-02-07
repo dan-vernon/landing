@@ -1,0 +1,22 @@
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  height: 282px;
+  margin: 0 auto;
+}
+
+.card-item { position: relative;
+  width: 40%;
+  background-color: rgba(240,240,240,0.8);
+  background-blend-mode: color-burn;
+  border-radius: 8px;
+}
+
+.card-content {
+  color: SlateGray;
+  position: absolute;
+  top: 20px;
+  padding:10px;
+}
+.card-content p {
+  color: SlateGray;
